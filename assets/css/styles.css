@@ -1,0 +1,34 @@
+.header{
+    background-color: blue;
+    font-size: 3rem;
+    text-align: center;
+}
+.formController{
+    margin-left: 20%;
+    margin-top: 3%;
+    max-width: 60%;
+}
+.form-control{
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%
+}
+.info{
+    margin-top: 1%;
+    margin-left: 2%;
+    margin-right: 2%
+}
+.formWrapper{
+    padding: 5%;
+    border: solid 1px blue;
+}
+.results{
+    margin-top: 3%
+}
+.resultsWrapper{
+    text-align: center;
+    padding: 5%;
+    border: solid 1px red;
+    margin-left: 10%;
+    margin-right: 10%;
+}

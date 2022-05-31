@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <title>GDKP Calculator</title>
+  </head>
+  <body>
+    <main>
+      <div class="header">GDKP Calculator</div>
+      <section class="form">
+        <div class="info">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+            aspernatur dignissimos facilis labore at saepe quas nesciunt, culpa
+            ut iste totam ullam recusandae, laborum magni et distinctio
+            expedita, similique inventore. Quisquam laborum quibusdam iste aut
+            illum quos! Deleniti quam esse, eum laudantium ut totam iste tempore
+            laborum fugiat, veniam unde.
+          </p>
+        </div>
+        <div class="formController">
+          <form class="formWrapper">
+            <input
+              class="form-control"
+              id="players"
+              placeholder="How many cuts?"
+            />
+            <input
+              class="form-control"
+              id="pot"
+              placeholder="Pot Size?"
+            />
+            <input
+              class="form-control"
+              id="orgCut"
+              placeholder="Organizer cut"
+            />
+            <input
+              class="form-control"
+              id="tankCount"
+              placeholder="# of Tanks get a bonus?"
+            />
+            <input
+              class="form-control"
+              id="healerCount"
+              placeholder="# of Healers get a bonus?"
+            />
+            <button class="form-control" type="submit" id="formBttn">Submit</button>
+          </form>
+        </div>
+      </section>
+      <section class="results">
+        <div class="resultsWrapper">
+            <div class="container">
+                <div class="row">
+                  <div class="col">
+                    Role
+                  </div>
+                  <div class="col">
+                    Payout
+                  </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                      Original Pot
+                    </div>
+                    <div class="col" id="originalPot">
+                    </div>
+                  </div>
+                <div class="row">
+                    <div class="col">
+                      Total Deduction
+                    </div>
+                    <div class="col" id="orgDeduction">
+                    </div>
+                  </div>
+                <div class="row">
+                    <div class="col">
+                      Organizer Cut
+                    </div>
+                    <div class="col" id="orgFinalCut">
+                    </div>
+                  </div>
+                <div class="row">
+                    <div class="col">
+                      Tank Bonus
+                    </div>
+                    <div class="col" id="tankBonusTotal">
+                    </div>
+                  </div>
+                <div class="row">
+                    <div class="col">
+                      Tank Bonus Each
+                    </div>
+                    <div class="col" id="tankBonusEach">
+                    </div>
+                  </div>
+                <div class="row">
+                    <div class="col">
+                      Healer Bonus
+                    </div>
+                    <div class="col" id="healerBonusTotal">
+                    </div>
+                  </div>
+                <div class="row">
+                    <div class="col">
+                      Healer Bonus Each
+                    </div>
+                    <div class="col" id="healerBonusEach">
+                    </div>
+                  </div>
+                <div class="row">
+                    <div class="col">
+                      Final Pot
+                    </div>
+                    <div class="col" id="finalPot">
+                    </div>
+                  </div>
+                <div class="row">
+                    <div class="col">
+                      Players Cut
+                    </div>
+                    <div class="col" id="playersCut">
+                    </div>
+                  </div>
+              </div>
+      </section>
+    </main>
+
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
